@@ -1,6 +1,8 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Variables for the different questions asked in the prompt windows, the special characters, letters and numbers are present. 
+
 var specialChar = ["#","!","@","$","%","^","&",".","+","*"];
 var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -12,6 +14,8 @@ var criteria = {
   specialChar: true,
   number: true
 }
+
+// function is created here for the randomization of the password and pushes out the final password.
 
 // Write password to the #password input
 var generatePassword = function(){
@@ -43,12 +47,14 @@ var generatePassword = function(){
 
 }
 
+// Function put in place and the prompt windows that show up asking the user for characters contained and which variables from earlier they would like to apply.
+
 function writePassword() {
 
   var passwordLength = function() {
     var x = window.prompt("How many characters will your password contain?");
 
-   if (x >= 8 && length <= 128){
+   if (x >= 8 && x <= 128){
     criteria.passLength = x;
    } else if (x == null){
     return;
