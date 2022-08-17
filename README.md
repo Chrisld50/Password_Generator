@@ -12,4 +12,3 @@ Javascript
 ![Alt Text](/Assets/Password%20Generator%20Image.png)
 
 # Link
-https://chrisld50.github.io/Password_Generator/
