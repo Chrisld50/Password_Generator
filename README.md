@@ -1,12 +1,21 @@
 # Password_Generator
 
+# User Story
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+
 # Description
-My motivation for this project was to create a functioning password generator using javascript in an already created html and css that can create a randomized password using uppercase letters, lowercase letters, numbers and symbols. Throughout this project I was able to get a better understanding of javascript and how to make applications happen using codes in javascript, such as prompt, alert and return loops. The most difficult part for me was understanding how the javascript should be set up and where the placement for things should go. 
+* This application utilizes Javascript to generate a random password for the user utilizing prompts to ask what the user is looking for in the password. 
+* Once the application starts, the user is asked what is the desired length of password and will be asked the prompt again if the password is too short.
+* The user is then asked if it would likee lowercase, uppercase, numeric and special characters in their password.
+* Once all of the prompts are given, the password will then be randomly generated fitting the criteria that was given.
+* The password will then be written on the page for the user. 
 
 # Technologies
-HTML
-CSS
-Javascript
+* HTML
+* CSS
+* Javascript
 
 # Screenshot
 ![Alt Text](/Assets/Password%20Generator%20Image.png)
